@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-urdu {
+    font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif, system-ui;
+    line-height: 1.8;
+  }
+  .font-nastaliq {
+    font-family: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+    line-height: 2.2;
+  }
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom scrollbar for smooth browsing */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f0ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #065f46;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
