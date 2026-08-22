@@ -34,10 +34,9 @@ jobs:
 
       - name: Build
         run: |
-          npx vite build
+          npx vite build --base=/Sufi-Natural.pk/
           touch ./dist/.nojekyll
           cp ./dist/index.html ./dist/404.html
-          echo "shmiraclenaturals.com" > ./dist/CNAME
 
 
       - name: Setup Pages
