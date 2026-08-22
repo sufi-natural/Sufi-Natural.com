@@ -63,10 +63,10 @@ export const Footer: React.FC<FooterProps> = ({
                   SH
                 </div>
               </div>
-              <h3 className="text-xl font-bold font-serif text-amber-200">Sufi Natural</h3>
+              <h3 className="text-xl font-bold font-serif text-amber-200">SH Miracle Naturals</h3>
             </div>
             <p className="text-xs text-emerald-200/80 leading-relaxed">
-              صوفی نیچرل ہربل ارگینک صابن قدیم حکمت اور جدید سکن کیئر کی سائنس کا نایاب مجموعہ ہے۔ ہر صابن میں قدرتی جڑی بوٹیوں، تیلوں اور اینٹی آکسیڈینٹس کی وافر مقدار موجود ہے۔
+              ایس ایچ مریکل نیچرلز (shmiraclenaturals.com) ہربل ارگینک صابن اور بیوٹی کیئر قدیم حکمت اور جدید سکن کیئر سائنس کا نایاب مجموعہ ہے۔ ہر پراڈکٹ قدرتی جڑی بوٹیوں اور خالص تیلوں سے تیار ہے۔
             </p>
             {onOpenAdmin && (
               <button
@@ -124,7 +124,7 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Bottom Copyright */}
         <div className="pt-6 border-t border-emerald-900/60 text-center text-xs text-emerald-400/70 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>© Sufi Natural — Herbal Organic Soaps & Skin Care. All Rights Reserved.</span>
+          <span>© SH Miracle Naturals (shmiraclenaturals.com) — Herbal Organic Care. All Rights Reserved.</span>
           <span className="text-amber-300/80">NATURAL • SAFE • EFFECTIVE</span>
         </div>
 

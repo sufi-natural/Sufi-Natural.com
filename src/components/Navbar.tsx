@@ -61,19 +61,19 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 p-0.5 shadow-inner flex items-center justify-center">
                 <div className="w-full h-full rounded-full bg-[#0d3828] flex flex-col items-center justify-center text-amber-300 border border-amber-400/40">
                   <span className="font-serif font-bold text-xs tracking-tighter leading-none text-amber-200">SH</span>
-                  <span className="font-nastaliq text-[10px] leading-none text-amber-400">صوفی</span>
+                  <span className="font-nastaliq text-[10px] leading-none text-amber-400">مریکل</span>
                 </div>
               </div>
               <div>
                 <h1 className="text-xl sm:text-2xl font-bold font-serif text-amber-100 flex items-center gap-2 tracking-wide">
-                  <span>Sufi Natural</span>
+                  <span>SH Miracle Naturals</span>
                   <span className="text-xs px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-sans border border-amber-500/30 font-medium">
-                    Herbal Organic
+                    shmiraclenaturals.com
                   </span>
                 </h1>
                 <p className="text-xs text-emerald-200/90 font-urdu flex items-center gap-1">
                   <Leaf className="w-3 h-3 text-emerald-400 inline" />
-                  <span>ہربل اور ارگینک صابن اور ان کے حیرت انگیز فوائد</span>
+                  <span>قدرتی اور ارگینک پروڈکٹس اور صابن کے حیرت انگیز فوائد</span>
                 </p>
               </div>
             </div>
